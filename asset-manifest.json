@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SyedBasha-Portfolio/static/css/main.dba3b3f8.css",
+    "main.js": "/SyedBasha-Portfolio/static/js/main.4c744072.js",
+    "static/js/453.6e6525bd.chunk.js": "/SyedBasha-Portfolio/static/js/453.6e6525bd.chunk.js",
+    "static/media/whatsapp.png": "/SyedBasha-Portfolio/static/media/whatsapp.d1038eb1bce26b4dab85.png",
+    "static/media/phone.png": "/SyedBasha-Portfolio/static/media/phone.d365ce486cfe5394bb54.png",
+    "static/media/GitHub-Logo.png": "/SyedBasha-Portfolio/static/media/GitHub-Logo.1b136cd11de4e9b17d88.png",
+    "static/media/Gmail-Emblem.png": "/SyedBasha-Portfolio/static/media/Gmail-Emblem.380675a29a88ebc41845.png",
+    "static/media/logo.jpg": "/SyedBasha-Portfolio/static/media/logo.094c8b50f374dc2a98f7.jpg",
+    "index.html": "/SyedBasha-Portfolio/index.html",
+    "main.dba3b3f8.css.map": "/SyedBasha-Portfolio/static/css/main.dba3b3f8.css.map",
+    "main.4c744072.js.map": "/SyedBasha-Portfolio/static/js/main.4c744072.js.map",
+    "453.6e6525bd.chunk.js.map": "/SyedBasha-Portfolio/static/js/453.6e6525bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba3b3f8.css",
+    "static/js/main.4c744072.js"
+  ]
+}
