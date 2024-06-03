@@ -9,7 +9,7 @@ const staticProjects = [
     description: "Displays various offers and deals available on the platform.",
     imageSmall: "https://i.ibb.co/JKSHYsG/Screenshot-2024-05-21-142216.png",
     imageLarge: "https://i.ibb.co/LRMDkwQ/Screenshot-2024-05-21-142406.png", 
-    link: "https://todos.ccbp.tech"
+    link: "https://offersection.ccbp.tech"
   },
   {
     title: "Food Page",
