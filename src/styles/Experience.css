@@ -1,0 +1,67 @@
+/* Experience.css */
+.experience-container {
+  background-image: url('../images/peakpx.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+}
+
+.experience-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+}
+
+.experience-heading {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.experience-section {
+  background-color: transparent;
+  color: transparent;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.experience-section:hover {
+  transform: translateY(-5px);
+  background-color: #ffffff;
+}
+
+.experience-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.experience-summary {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-top: 0.5rem;
+}
+
+.experience-button {
+  display: inline-block;
+  background-color: #205cbc;
+  color: rgb(33, 28, 28);
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.experience-button:hover {
+  background-color: #e4e6eb;
+  color: #000;
+}

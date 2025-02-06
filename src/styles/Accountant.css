@@ -1,0 +1,11 @@
+.background-image {
+   background-image: url('https://media.istockphoto.com/id/1431694821/photo/investors-working-on-desk-office-and-check-data-cost-balance-profit-and-currency-on-monitor.jpg?s=1024x1024&w=is&k=20&c=3ZNZxfBjL8JQQieGwlFhYlRAVPH2jWlPqUS-ditQshc=');
+   height: 90vh;
+   background-size: cover;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   margin: 0px;
+}
+
+

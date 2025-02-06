@@ -1,0 +1,42 @@
+/* Base styles for images */
+img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   display: block;
+   margin: 10px 0;
+ }
+ 
+ /* Container for the image gallery */
+ .image-gallery {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 15px;
+   background-color: bisque;
+ }
+ 
+ /* Styles for different devices using media queries */
+ 
+ /* For mobile devices (up to 600px width) */
+ @media screen and (max-width: 600px) {
+   .image-gallery img {
+     width: 100%;  /* Full width on small screens */
+     max-width: 100%;
+   }
+ }
+ 
+ /* For tablets (600px to 1024px width) */
+ @media screen and (min-width: 601px) and (max-width: 1024px) {
+   .image-gallery img {
+     width: 45%;  /* Two images per row on tablets */
+   }
+ }
+ 
+ /* For large screens (1025px and above) */
+ @media screen and (min-width: 1025px) {
+   .image-gallery img {
+     width: 30%;  /* Three images per row on larger screens */
+   }
+ }
+ 
