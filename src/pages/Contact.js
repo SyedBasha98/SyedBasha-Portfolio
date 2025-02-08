@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Contact.css';  
 import githubLogo from '../logo/GitHub-Logo.png';
 import gmailLogo from '../logo/Gmail-Emblem.png';
 import linkedinLogo from '../logo/linked-in.png';
@@ -7,92 +8,62 @@ import Phone from '../logo/phone.png';
 
 const ContactPage = () => {
   return (
-    <div style={styles.container}>
+    <div className="contact-section">
       <h1>Contact Me</h1>
-      <div style={styles.card}>
-        <a href="tel:8247723001" style={styles.link}>
-          <img src={Phone} alt="Phone" style={styles.icon} />
-          <div style={styles.text}>8247723001</div>
+
+      <div className="card-container">
+        <a href="tel:8247723001" className="link">
+          <img src={Phone} alt="Phone" className="icon" />
+          <div className="text">+91 8247723001</div>
+          <p>India</p>
         </a>
       </div>
-      <div style={styles.cardContainer}>
-        <div style={styles.card}>
-          <a href="https://github.com/syedbasha98" target="_blank" rel="noopener noreferrer" style={styles.link}>
-            <img src={githubLogo} alt="GitHub" style={styles.icon} />
-            <div style={styles.text}>GitHub</div>
+
+      <div className="card-container">
+        <a href="tel:50664623" className="link">
+          <img src={Phone} alt="Phone" className="icon" />
+          <div className="text">+965 506 64623</div>
+          <p>Kuwait</p>
+        </a>
+      </div>
+
+      <div className="card-container">
+        <div className="card">
+          <a href="https://github.com/syedbasha98" target="_blank" rel="noopener noreferrer" className="link">
+            <img src={githubLogo} alt="GitHub" className="icon" />
+            <div className="text">GitHub</div>
           </a>
         </div>
-        <div style={styles.card}>
-          <a href="mailto:syedbasha94684@gmail.com" style={styles.link}>
-            <img src={gmailLogo} alt="Gmail" style={styles.icon} />
-            <div style={styles.text}>Gmail</div>
+        <div className="card">
+          <a href="mailto:syedbasha94684@gmail.com" className="link">
+            <img src={gmailLogo} alt="Gmail" className="icon" />
+            <div className="text">Gmail</div>
           </a>
         </div>
-        <div style={styles.card}>
-        <a href="https://www.linkedin.com/in/syed-basha78956" target="_blank" rel="noopener noreferrer">
-            <img src={linkedinLogo} alt="LinkedIn" style={styles.icon} />
-            <div style={styles.text}>LinkedIn</div>
+        <div className="card">
+          <a href="https://www.linkedin.com/in/syed-basha78956" target="_blank" rel="noopener noreferrer" className="link">
+            <img src={linkedinLogo} alt="LinkedIn" className="icon" />
+            <div className="text">LinkedIn</div>
           </a>
         </div>
-        <div style={styles.card}>
-          <a href="tel:8247723001" style={styles.link}>
-            <img src={whatsappLogo} alt="WhatsApp" style={styles.icon} />
-            <div style={styles.text}>WhatsApp</div>
+        <div className="card">
+          <a href="tel:8247723001" className="link">
+            <img src={whatsappLogo} alt="WhatsApp" className="icon" />
+            <div className="text">WhatsApp</div>
+            <p>India</p>
+          </a>
+        </div>
+
+        <div className="card">
+          <a href="tel:+965 50664623" className="link">
+            <img src={whatsappLogo} alt="WhatsApp" className="icon" />
+            <div className="text">WhatsApp</div>
+            <p>Kuwait</p>
           </a>
         </div>
       </div>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    fontFamily: 'Arial, sans-serif',
-    backgroundColor: '#f4f4f4',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '100vh',
-    margin: '0',
-    padding: '20px',
-    borderRadius: '8px',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-  },
-  cardContainer: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-    gap: '20px',
-  },
-  card: {
-    backgroundColor: '#fff',
-    padding: '20px',
-    borderRadius: '8px',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    textAlign: 'center',
-    width: '150px',
-    margin:'15px'
-  },
-  link: {
-    textDecoration: 'none',
-    color: '#333',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-  },
-  icon: {
-    width: '50px',
-    height: '50px',
-    marginBottom: '10px',
-  },
-  text: {
-    fontSize: '16px',
-    fontWeight: 'bold',
-  }
 };
 
 export default ContactPage;
