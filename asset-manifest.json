@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SyedBasha-Portfolio/static/css/main.374f56d2.css",
-    "main.js": "/SyedBasha-Portfolio/static/js/main.1a0ec450.js",
+    "main.css": "/SyedBasha-Portfolio/static/css/main.1065455e.css",
+    "main.js": "/SyedBasha-Portfolio/static/js/main.85894e53.js",
     "static/js/453.6e6525bd.chunk.js": "/SyedBasha-Portfolio/static/js/453.6e6525bd.chunk.js",
     "static/media/2.png": "/SyedBasha-Portfolio/static/media/2.112184bd33977ad4acc4.png",
     "static/media/1.png": "/SyedBasha-Portfolio/static/media/1.92d1924e85a16acfe075.png",
@@ -13,12 +13,12 @@
     "static/media/Gmail-Emblem.png": "/SyedBasha-Portfolio/static/media/Gmail-Emblem.380675a29a88ebc41845.png",
     "static/media/logo.jpg": "/SyedBasha-Portfolio/static/media/logo.094c8b50f374dc2a98f7.jpg",
     "index.html": "/SyedBasha-Portfolio/index.html",
-    "main.374f56d2.css.map": "/SyedBasha-Portfolio/static/css/main.374f56d2.css.map",
-    "main.1a0ec450.js.map": "/SyedBasha-Portfolio/static/js/main.1a0ec450.js.map",
+    "main.1065455e.css.map": "/SyedBasha-Portfolio/static/css/main.1065455e.css.map",
+    "main.85894e53.js.map": "/SyedBasha-Portfolio/static/js/main.85894e53.js.map",
     "453.6e6525bd.chunk.js.map": "/SyedBasha-Portfolio/static/js/453.6e6525bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.374f56d2.css",
-    "static/js/main.1a0ec450.js"
+    "static/css/main.1065455e.css",
+    "static/js/main.85894e53.js"
   ]
 }
