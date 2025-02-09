@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SyedBasha-Portfolio/static/css/main.efa3a0ca.css",
+    "main.css": "/SyedBasha-Portfolio/static/css/main.c9b4e10d.css",
     "main.js": "/SyedBasha-Portfolio/static/js/main.fa802c39.js",
     "static/js/453.6e6525bd.chunk.js": "/SyedBasha-Portfolio/static/js/453.6e6525bd.chunk.js",
     "static/media/2.png": "/SyedBasha-Portfolio/static/media/2.112184bd33977ad4acc4.png",
@@ -13,12 +13,12 @@
     "static/media/Gmail-Emblem.png": "/SyedBasha-Portfolio/static/media/Gmail-Emblem.380675a29a88ebc41845.png",
     "static/media/logo.jpg": "/SyedBasha-Portfolio/static/media/logo.094c8b50f374dc2a98f7.jpg",
     "index.html": "/SyedBasha-Portfolio/index.html",
-    "main.efa3a0ca.css.map": "/SyedBasha-Portfolio/static/css/main.efa3a0ca.css.map",
+    "main.c9b4e10d.css.map": "/SyedBasha-Portfolio/static/css/main.c9b4e10d.css.map",
     "main.fa802c39.js.map": "/SyedBasha-Portfolio/static/js/main.fa802c39.js.map",
     "453.6e6525bd.chunk.js.map": "/SyedBasha-Portfolio/static/js/453.6e6525bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efa3a0ca.css",
+    "static/css/main.c9b4e10d.css",
     "static/js/main.fa802c39.js"
   ]
 }
