@@ -1,94 +1,197 @@
-/* src/components/Home.css */
+/* Prevent horizontal scrolling on small screens */
+body, html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
 
+/* General Styling for the Home Section */
 .home-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
-    height: 100vh;
-    padding: 30px;
-}
-
-.intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-
-.image {
-    height: 75px;
-    width: 75px;
-    border-radius: 60px;
-    padding: 20px;
-}
-
-.intro h1 {
-    font-size: 22px;
-    margin-bottom: 1rem;
-    color: #fff;
-    margin: 0px;
     padding: 10px;
-}
-
-.intro p {
-    font-size: 1rem;
-    color: #f7f7f7;
+    width: 100%;
+    margin-top: 10px; /* To give some spacing from top */
 }
 
 .descriptionurl {
     background: url('https://wallpapercave.com/wp/wp4489241.jpg') no-repeat center center/cover;
     text-align: center;
     color: #fff;
+    padding: 10px 0;
+    height: auto;
+    position: relative;
 }
 
-.container {
+/* Styling for the Image in the Top Left Corner */
+.image {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 3px solid #fff; /* Added border for image */
+}
+
+/* Intro Section Styling */
+.intro {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
 }
 
-.card {
-    background-color: black;
+.intro h1,
+.intro h3 {
     color: #fff;
-    width: 850px;
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 25px;
+    margin: 0;
+    padding: 10px;
 }
 
-/* Mobile styles */
+.intro h1 {
+    font-size: 30px;
+    font-weight: 600; /* Slightly bold */
+}
+
+.intro h3 {
+    font-size: 22px;
+    font-weight: 500; /* Medium bold */
+}
+
+/* Profile Card Styling */
+.profile-card {
+    background-color:transparent; /* Dark background for the card */
+    color: #fff;
+    width: 100%; /* Full width by default */
+    max-width: 1000px; /* Maximum width for larger screens */
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    margin-top: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+    margin-right: 45px;
+}
+
+/* Hover effect on the profile card */
+.profile-card:hover {
+    transform: translateY(-5px); /* Slight elevation on hover */
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
+}
+
+/* Card Title Styling */
+.profile-card h1 {
+    font-size: 32px; /* Larger title font size */
+    font-weight: 700; /* Bold title */
+    color: #4CAF50; /* Green color for title */
+    margin-bottom: 15px;
+}
+
+/* Card Text/Paragraph Styling */
+.profile-card p {
+    font-size: 18px;
+    line-height: 1.6; /* Improve readability */
+    color: #ccc; /* Light grey text for paragraph */
+    margin-bottom: 20px;
+}
+
+/* Button Styling inside the Profile Card */
+.profile-card .view-projects-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px; /* Space above button */
+}
+
+/* Hover effect on the button */
+.profile-card .view-projects-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Responsive styles for mobile devices */
 @media (max-width: 480px) {
     .home-section {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 20px;
-        height: auto;
+        padding: 15px;
     }
 
     .intro {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .image {
-        height: 50px;
-        width: 50px;
-        padding: 10px;
+        margin-top: 60px;
+        text-align: center;
     }
 
     .intro h1 {
+        font-size: 22px;
+    }
+
+    .intro h3 {
         font-size: 18px;
-        padding: 5px;
     }
 
-    .intro p {
-        font-size: 0.875rem; /* Equivalent to 14px */
+    .image {
+        height: 60px;
+        width: 60px;
+        top: 10px;
+        left: 10px;
     }
 
-    .card {
-        width: 90%;
-        padding: 10px;
-        margin-top: 15px;
+    .profile-card {
+        width: 100%; /* Ensure card takes full width */
+        padding: 20px;
+        margin-top: 20px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 481px) and (max-width: 768px) {
+    .profile-card {
+        width: 85%; /* Slightly larger for tablets */
+        padding: 25px;
+    }
+
+    .profile-card h1 {
+        font-size: 28px;
+    }
+
+    .profile-card p {
+        font-size: 17px;
+    }
+
+    .profile-card .view-projects-button {
+        padding: 12px 22px;
+    }
+}
+
+/* Full width Profile Card Layout for Desktops */
+@media (min-width: 1025px) {
+    .profile-card {
+        width: 80%; /* Adjust the card width for large screens */
+        padding: 40px;
+    }
+
+    .profile-card h1 {
+        font-size: 36px;
+    }
+
+    .profile-card p {
+        font-size: 20px;
+    }
+
+    .profile-card .view-projects-button {
+        padding: 14px 30px;
     }
 }

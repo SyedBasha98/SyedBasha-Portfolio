@@ -4,7 +4,7 @@ import "../styles/Experience.css";
 const Experience = () => {
   return (
     <div className="experience-container p-6 space-y-6">
-      <div className="experience-section bg-blue-100 hover:bg-blue-200">
+      <div className="experience-section">
         <h2 className="experience-title">Junior Accountant Experience</h2>
         <p className="experience-summary">
           Managed financial transactions, journals, and reconciliations at Sri Gopal Auto Stores.
@@ -24,7 +24,7 @@ const Experience = () => {
         </div>
       </div>
 
-      <div className="experience-section bg-green-100 hover:bg-green-200">
+      <div className="experience-section">
         <h2 className="experience-title">Frontend Developer Experience</h2>
         <p className="experience-summary">
           Developed user-friendly applications using React, React Native, and web technologies.

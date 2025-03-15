@@ -20,9 +20,9 @@ const ContactPage = () => {
       </div>
 
       <div className="card-container">
-        <a href="tel:50664623" className="link">
+        <a href="tel:97967831" className="link">
           <img src={Phone} alt="Phone" className="icon" />
-          <div className="text">+965 506 64623</div>
+          <div className="text">+965 9796 7831</div>
           <p>Kuwait</p>
         </a>
       </div>
@@ -46,8 +46,10 @@ const ContactPage = () => {
             <div className="text">LinkedIn</div>
           </a>
         </div>
+
+        {/* Updated WhatsApp Links */}
         <div className="card">
-          <a href="tel:8247723001" className="link">
+          <a href="https://wa.me/918247723001" className="link" target="_blank" rel="noopener noreferrer">
             <img src={whatsappLogo} alt="WhatsApp" className="icon" />
             <div className="text">WhatsApp</div>
             <p>India</p>
@@ -55,7 +57,7 @@ const ContactPage = () => {
         </div>
 
         <div className="card">
-          <a href="tel:+965 50664623" className="link">
+          <a href="https://wa.me/96597967831" className="link" target="_blank" rel="noopener noreferrer">
             <img src={whatsappLogo} alt="WhatsApp" className="icon" />
             <div className="text">WhatsApp</div>
             <p>Kuwait</p>

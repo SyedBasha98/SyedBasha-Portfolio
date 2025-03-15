@@ -1,13 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
 import ContactForm from './pages/Contact';
-import Experince from './pages/Experience';
-
+import Experience from './pages/Experience';
 import './App.css';
 import { AccountantDescription, FrontendDeveloperDescription } from './pages/DevloperDescription';
 import Developer from './pages/FrontendDevloperCertificates';
@@ -23,14 +22,15 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experince />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<ContactForm />} />
-          <Route path='/AccountantDescription' element={<AccountantDescription />} />
-          <Route path='/FrontendDeveloperDescription' element={<FrontendDeveloperDescription />} />
-          <Route path='/Developer' element={<Developer />} />
-          <Route path='/Accountant' element={<Accountant />} />
-          <Route path='' />
-         </Routes>
+          <Route path="/AccountantDescription" element={<AccountantDescription />} />
+          <Route path="/FrontendDeveloperDescription" element={<FrontendDeveloperDescription />} />
+          <Route path="/Developer" element={<Developer />} />
+          <Route path="/Accountant" element={<Accountant />} />
+          {/* Redirect unknown paths to Home */}
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
       </div>
     </Router>
   );
